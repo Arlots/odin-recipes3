@@ -1,0 +1,18 @@
+.img-size {
+    height: 300px;
+    width: auto;
+}
+
+.stew, .garlic, .fra {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+a {
+    text-align: center;
+}
+
+.recipeContainer {
+    display: flex;
+}
