@@ -1,27 +1,66 @@
+body {
+    background-color: #D7CEC7;
+}
+h1 {
+    text-align: center;
+    border-bottom: 2px, solid, gray;
+    border-width: 70%;
+}
 .img-size {
-    height: 300px;
-    width: auto;
+    height: auto;
+    width: 300px;
 }
 
 .stew, .garlic, .fra {
     display: flex;
     flex-direction: column;
-    width: 30%;
-    background: beige;
+    background-color: beige;
+    margin: 0;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-a {
+a, p {
     text-align: center;
 }
 
 .recipeContainer {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 40px;
 }
 
 .bottom, .top {
     display: flex;
     justify-content: center;
     gap: 10%;
+    height: 270px;
+}
+
+.description, h2 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+li {
+    width: 550px;
+    text-align: justify;
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 20px; 
+
+}
+
+.recipePic {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: auto;  
+    padding-top: 20px; 
 }
