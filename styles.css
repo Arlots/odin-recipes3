@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     width: 30%;
+    background: beige;
 }
 
 a {
@@ -15,4 +16,12 @@ a {
 
 .recipeContainer {
     display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.bottom, .top {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
 }
